@@ -1,0 +1,27 @@
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em auto;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    background-color: #fff;
+    border: 1px solid #222;
+    padding: 1em;
+    margin: 1em;
+}
+
+img {
+    width: 200px;
+}
